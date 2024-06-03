@@ -1,0 +1,66 @@
+@import "../../utils/constants/variables.scss";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.top {
+  height: 60px;
+  background-color: $mainC-thirdColor;
+}
+.bottom {
+  height: 85px;
+  background-color: $mainC-bgWC;
+
+  & .rowBlock {
+    gap: 5rem;
+  }
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowBlock {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  &:first-child div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.selectContainer {
+  & * {
+    color: $typographyC-tWhite;
+  }
+}
+
+.select {
+  &::before,
+  &::after {
+    display: none;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+  color: $typographyC-main;
+
+  & span {
+    cursor: pointer;
+
+    &:hover {
+      color: $mainC-main;
+    }
+  }
+}
