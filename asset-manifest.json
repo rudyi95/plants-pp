@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/plants-pp/static/css/main.3590915d.css",
-    "main.js": "/plants-pp/static/js/main.229a4441.js",
+    "main.css": "/plants-pp/static/css/main.fd09168d.css",
+    "main.js": "/plants-pp/static/js/main.3439fd0c.js",
     "static/js/453.9b8a514b.chunk.js": "/plants-pp/static/js/453.9b8a514b.chunk.js",
     "static/media/callUsIcon.svg": "/plants-pp/static/media/callUsIcon.11ee5a55f8ea56fe3d63800904a82202.svg",
     "static/media/phoneCallIcon.svg": "/plants-pp/static/media/phoneCallIcon.1945365f089a8f203ada1b66bd668ebb.svg",
+    "static/media/plantSmall.svg": "/plants-pp/static/media/plantSmall.b44eada429e19a08da5b5aec9770f1aa.svg",
     "static/media/locationIcon.svg": "/plants-pp/static/media/locationIcon.a35b3ef16d1924c27729da43b5ebf93a.svg",
     "static/media/mailIcon.svg": "/plants-pp/static/media/mailIcon.7696398b68c02239b500f4d109d0ce3c.svg",
     "index.html": "/plants-pp/index.html",
-    "main.3590915d.css.map": "/plants-pp/static/css/main.3590915d.css.map",
-    "main.229a4441.js.map": "/plants-pp/static/js/main.229a4441.js.map",
+    "main.fd09168d.css.map": "/plants-pp/static/css/main.fd09168d.css.map",
+    "main.3439fd0c.js.map": "/plants-pp/static/js/main.3439fd0c.js.map",
     "453.9b8a514b.chunk.js.map": "/plants-pp/static/js/453.9b8a514b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3590915d.css",
-    "static/js/main.229a4441.js"
+    "static/css/main.fd09168d.css",
+    "static/js/main.3439fd0c.js"
   ]
 }
