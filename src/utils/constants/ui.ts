@@ -93,7 +93,7 @@ const defaultTheme = createTheme({
       bgLightSecondary: "#D9F1E0",
       lightC: "#FBEEE7",
       bgLightThird: "#FFF8F1",
-      gradient: "linear-gradient(#00730C 81%, #FBF6EE 0%)",
+      gradient: "linear-gradient(#b4d4b4 81%, #FBF6EE 0%)",
     },
     typographyC: {
       main: "#212529",
@@ -200,6 +200,22 @@ export const theme = createTheme({
           },
           style: {
             backgroundColor: defaultTheme.palette.mainC.main,
+            color: defaultTheme.palette.typographyC.tWhite,
+
+            "&:hover": {
+              color: defaultTheme.palette.mainC.main,
+              boxShadow: `0 0 0 1px ${defaultTheme.palette.mainC.main}`,
+              backgroundColor: defaultTheme.palette.mainC.bgWC
+            },
+          },
+        },
+        {
+          props: {
+            variant: "text",
+          },
+          style: {
+            backgroundColor: 'transparent',
+            color: defaultTheme.palette.typographyC.pColor,
 
             "&:hover": {
               color: defaultTheme.palette.mainC.main,

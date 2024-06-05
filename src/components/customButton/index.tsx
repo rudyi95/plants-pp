@@ -4,6 +4,8 @@ import { Button, ButtonProps } from "@mui/material";
 import CustomIcon from "../customIcon";
 import { IconType } from "src/types/enums";
 
+import classes from "./style.module.scss";
+
 interface IProps {
   text: string;
   icon?: IconType;
@@ -11,7 +13,7 @@ interface IProps {
 
 export const CustomButton: React.FC<IProps & ButtonProps> = ({ text, icon, ...props }) => {
   return (
-    <Button {...props}>
+    <Button className={classes.root} {...props}>
       {!!icon && <CustomIcon type={icon} />}
       {text}
     </Button>

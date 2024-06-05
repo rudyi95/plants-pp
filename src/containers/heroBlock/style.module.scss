@@ -1,0 +1,76 @@
+@import "../../utils/constants/variables.scss";
+
+.root {
+  height: 719px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-image: $mainC-gradient;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contentInner {
+  height: 486px;
+  display: flex;
+}
+
+.contentText {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.contentTextLast {
+  display: flex;
+  gap: 20px;
+}
+
+.contextTextLastItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  & div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-image: $mainC-gradient;
+    border-radius: 100%;
+  }
+}
+
+.contentPicture {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.contentPictureInner {
+  width: 197px;
+  height: 278px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  transform: translate(0%, 10%);
+}
+
+.picture {
+  width: 1013px;
+  height: 673px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  transform: translate(-1%, 0%);
+}
