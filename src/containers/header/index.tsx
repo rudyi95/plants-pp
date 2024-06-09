@@ -54,7 +54,7 @@ export const Header: React.FC = () => {
               <Typography variant="button1">Blog</Typography>
               <Typography variant="button1">Contact</Typography>
             </Box>
-            <CustomButton variant="green" text="Call Us" icon={IconType.callUs} />
+            <CustomButton variant="contained" text="Call Us" icon={IconType.callUs} />
           </Box>
         </Container>
       </Box>

@@ -5,6 +5,7 @@ import { Box, Typography } from "@mui/material";
 import classes from "./style.module.scss";
 import { CustomButton, CustomIcon } from "src/components";
 import { IconType } from "src/types/enums";
+import { theme } from "src/utils/constants/ui";
 
 export const HeroBlock: React.FC = () => {
   return (
@@ -26,16 +27,16 @@ export const HeroBlock: React.FC = () => {
               </Box>
               <Typography variant="h2" fontWeight="800">
                 Perfect Landscape
-              </Typography>
-              <Typography variant="h2" fontWeight="800">
-                Solution.
+                <Typography variant="h2" fontWeight="800" color={theme.palette.mainC.main}>
+                  Solution.
+                </Typography>
               </Typography>
               <Typography variant="h6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
                 ullamcorper mattis, pulvinar dapibus leo.
               </Typography>
               <Box sx={{ display: "flex", gap: "40px" }}>
-                <CustomButton text="Get A Quate" variant="green" />
+                <CustomButton text="Get A Quate" variant="contained" />
                 <CustomButton text="See how it works ->" variant="text" />
               </Box>
             </Box>

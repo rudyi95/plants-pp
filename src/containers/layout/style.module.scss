@@ -1,0 +1,13 @@
+@import "../../utils/constants/variables.scss";
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+  gap: 100px;
+}

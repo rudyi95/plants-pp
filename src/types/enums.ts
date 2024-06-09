@@ -2,6 +2,14 @@ export enum IconType {
   location = "location",
   mail = "mail",
   phoneCall = "phoneCall",
-  callUs = 'callUs',
-  plantSmall = 'plantSmall'
+  callUs = "callUs",
+  plantSmall = "plantSmall",
+  branchCutting = "branchCutting",
+  flowerScaping = "flowerScaping",
+  gardenDesign = "gardenDesign",
+  grassCutting = "grassCutting",
+  irrigation = "irrigation",
+  plantGrowing = "plantGrowing",
+  treePlanting = "treePlanting",
+  weedsControl = "weedsControl",
 }

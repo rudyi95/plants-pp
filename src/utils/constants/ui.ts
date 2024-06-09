@@ -75,8 +75,8 @@ declare module "@mui/material/Button" {
     verified: true;
   }
   interface ButtonPropsVariantOverrides {
-    green: true;
-    white: true;
+    contained_white: true;
+    outlined_white: true;
   }
 }
 
@@ -196,7 +196,7 @@ export const theme = createTheme({
       variants: [
         {
           props: {
-            variant: "green",
+            variant: "contained",
           },
           style: {
             backgroundColor: defaultTheme.palette.mainC.main,
@@ -205,7 +205,52 @@ export const theme = createTheme({
             "&:hover": {
               color: defaultTheme.palette.mainC.main,
               boxShadow: `0 0 0 1px ${defaultTheme.palette.mainC.main}`,
-              backgroundColor: defaultTheme.palette.mainC.bgWC
+              backgroundColor: "transparent",
+            },
+          },
+        },
+        {
+          props: {
+            variant: "contained_white",
+          },
+          style: {
+            backgroundColor: "transparent",
+            color: defaultTheme.palette.mainC.main,
+            boxShadow: `0 0 0 1px ${defaultTheme.palette.mainC.main}`,
+
+            "&:hover": {
+              color: defaultTheme.palette.typographyC.tWhite,
+              backgroundColor: defaultTheme.palette.mainC.main,
+            },
+          },
+        },
+        {
+          props: {
+            variant: "outlined",
+          },
+          style: {
+            backgroundColor: defaultTheme.palette.mainC.main,
+            color: defaultTheme.palette.typographyC.tWhite,
+
+            "&:hover": {
+              color: defaultTheme.palette.mainC.main,
+              boxShadow: "10px 1px 4px #000000",
+              backgroundColor: "transparent",
+            },
+          },
+        },
+        {
+          props: {
+            variant: "outlined_white",
+          },
+          style: {
+            color: defaultTheme.palette.mainC.main,
+            boxShadow: "10px 1px 4px #000000",
+            backgroundColor: "transparent",
+
+            "&:hover": {
+              backgroundColor: defaultTheme.palette.mainC.main,
+              color: defaultTheme.palette.typographyC.tWhite,
             },
           },
         },
@@ -214,13 +259,12 @@ export const theme = createTheme({
             variant: "text",
           },
           style: {
-            backgroundColor: 'transparent',
+            backgroundColor: "transparent",
             color: defaultTheme.palette.typographyC.pColor,
 
             "&:hover": {
               color: defaultTheme.palette.mainC.main,
-              boxShadow: `0 0 0 1px ${defaultTheme.palette.mainC.main}`,
-              backgroundColor: defaultTheme.palette.mainC.bgWC
+              backgroundColor: "transparent",
             },
           },
         },

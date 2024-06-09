@@ -1,0 +1,112 @@
+@import "../../utils/constants/variables.scss";
+
+.root {
+  height: 666px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: $mainC-thirdColor;
+}
+
+.footerHeader {
+  height: 125px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $mainC-bgLightSecondary;
+  border-radius: 10px;
+  transform: translate(0%, -60%);
+}
+
+.footerCenter {
+  height: 354px;
+  display: flex;
+  justify-content: space-between;
+  color: $typographyC-tWhite;
+}
+
+.CColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.CSubscribe {
+  width: 500px;
+
+  & button {
+    color: #fff;
+  }
+}
+.CSubscribeSocial {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  & svg {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px;
+  }
+}
+.CSubscribeInput {
+  width: 100%;
+
+  &::before {
+    border-bottom: 1px solid #fff;
+  }
+  & input::placeholder {
+    color: #fff !important;
+  }
+}
+.CContacts {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.CLinks {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+
+  & li {
+    padding-left: 0;
+    padding-right: 0;
+    cursor: pointer;
+
+    & > div {
+      min-width: auto;
+      color: #fff;
+    }
+  }
+}
+.CServices {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footerBottomContainer {
+  border-top: 1px #fff solid;
+}
+
+.footerBottom {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $typographyC-tWhite;
+}
+
+.footerBottomLinks {
+  display: flex;
+  justify-content: space-around;
+
+  & button {
+    color: $typographyC-tWhite;
+  }
+}
