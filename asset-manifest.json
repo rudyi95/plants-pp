@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/plants-pp/static/css/main.fd09168d.css",
-    "main.js": "/plants-pp/static/js/main.3439fd0c.js",
+    "main.css": "/plants-pp/static/css/main.3b20f4bc.css",
+    "main.js": "/plants-pp/static/js/main.bfbae933.js",
     "static/js/453.9b8a514b.chunk.js": "/plants-pp/static/js/453.9b8a514b.chunk.js",
+    "static/media/plantGrowingIcon.svg": "/plants-pp/static/media/plantGrowingIcon.51492b109de902421ee15b7a39108277.svg",
+    "static/media/treePlantingIcon.svg": "/plants-pp/static/media/treePlantingIcon.bc8bd62b4519d0b6fba0c49b90f751bd.svg",
+    "static/media/weedsControlIcon.svg": "/plants-pp/static/media/weedsControlIcon.0344ff6d088caa46e895284b37098a32.svg",
+    "static/media/flowerScapingIcon.svg": "/plants-pp/static/media/flowerScapingIcon.7f8e2419f14349c88375f9bd3b8cb19e.svg",
+    "static/media/irrigationIcon.svg": "/plants-pp/static/media/irrigationIcon.e8f85ac6f107483ca65d79476f0b3ea5.svg",
     "static/media/callUsIcon.svg": "/plants-pp/static/media/callUsIcon.11ee5a55f8ea56fe3d63800904a82202.svg",
+    "static/media/grassCuttingIcon.svg": "/plants-pp/static/media/grassCuttingIcon.ce8f9203048a62e67b704db8dcf14537.svg",
+    "static/media/branchCuttingIcon.svg": "/plants-pp/static/media/branchCuttingIcon.d8d5977a439e0f1e123eeaa325d01345.svg",
+    "static/media/gardenDesignIcon.svg": "/plants-pp/static/media/gardenDesignIcon.b85c9cff41e512fad4969864686e09a4.svg",
     "static/media/phoneCallIcon.svg": "/plants-pp/static/media/phoneCallIcon.1945365f089a8f203ada1b66bd668ebb.svg",
     "static/media/plantSmall.svg": "/plants-pp/static/media/plantSmall.b44eada429e19a08da5b5aec9770f1aa.svg",
     "static/media/locationIcon.svg": "/plants-pp/static/media/locationIcon.a35b3ef16d1924c27729da43b5ebf93a.svg",
     "static/media/mailIcon.svg": "/plants-pp/static/media/mailIcon.7696398b68c02239b500f4d109d0ce3c.svg",
     "index.html": "/plants-pp/index.html",
-    "main.fd09168d.css.map": "/plants-pp/static/css/main.fd09168d.css.map",
-    "main.3439fd0c.js.map": "/plants-pp/static/js/main.3439fd0c.js.map",
+    "main.3b20f4bc.css.map": "/plants-pp/static/css/main.3b20f4bc.css.map",
+    "main.bfbae933.js.map": "/plants-pp/static/js/main.bfbae933.js.map",
     "453.9b8a514b.chunk.js.map": "/plants-pp/static/js/453.9b8a514b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd09168d.css",
-    "static/js/main.3439fd0c.js"
+    "static/css/main.3b20f4bc.css",
+    "static/js/main.bfbae933.js"
   ]
 }
