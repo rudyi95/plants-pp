@@ -1,11 +1,14 @@
 import { Box } from "@mui/material";
 import React from "react";
-import { Services } from "./containers";
+import { Services, Experience } from "src/containers/pageParts";
+
+import classes from "./style.module.scss";
 
 export const HomePage: React.FC = () => {
   return (
-    <Box>
+    <Box className={classes.root}>
       <Services />
+      <Experience />
     </Box>
   );
 };

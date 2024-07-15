@@ -2,9 +2,11 @@ import React from "react";
 
 import { Container, Typography } from "@mui/material";
 
-import classes from "./style.module.scss";
-import { SERVICES_LIST } from "src/utils/constants/services";
 import { SimpleCard } from "src/components/cards";
+
+import { SERVICES_LIST } from "src/utils/constants/services";
+
+import classes from "./style.module.scss";
 
 export const Services: React.FC = () => {
   return (

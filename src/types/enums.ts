@@ -12,4 +12,8 @@ export enum IconType {
   plantGrowing = "plantGrowing",
   treePlanting = "treePlanting",
   weedsControl = "weedsControl",
+  clientsTrust = "clientsTrust",
+  ourMission = "ourMission",
+  ourVision = "ourVision",
+  supportTeam = "supportTeam",
 }

@@ -13,6 +13,10 @@ import { ReactComponent as IrrigationIcon } from "src/assets/services/irrigation
 import { ReactComponent as PlantGrowingIcon } from "src/assets/services/plantGrowingIcon.svg";
 import { ReactComponent as TreePlantingIcon } from "src/assets/services/treePlantingIcon.svg";
 import { ReactComponent as WeedsControlIcon } from "src/assets/services/weedsControlIcon.svg";
+import { ReactComponent as ClientsTrustIcon } from "src/assets/experience/clientsTrustIcon.svg";
+import { ReactComponent as OurMissionIcon } from "src/assets/experience/ourMissionIcon.svg";
+import { ReactComponent as OurVisionIcon } from "src/assets/experience/ourVisionIcon.svg";
+import { ReactComponent as SupportTeamIcon } from "src/assets/experience/supportTeamIcon.svg";
 
 import { IconType } from "src/types/enums";
 
@@ -30,6 +34,10 @@ const icons = {
   [IconType.plantGrowing]: PlantGrowingIcon,
   [IconType.treePlanting]: TreePlantingIcon,
   [IconType.weedsControl]: WeedsControlIcon,
+  [IconType.clientsTrust]: ClientsTrustIcon,
+  [IconType.ourMission]: OurMissionIcon,
+  [IconType.ourVision]: OurVisionIcon,
+  [IconType.supportTeam]: SupportTeamIcon
 };
 
 interface IconProps {

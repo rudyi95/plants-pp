@@ -1,0 +1,42 @@
+@import "src/utils/constants/variables.scss";
+
+.root {
+  position: relative;
+  height: 903px;
+  width: 693px;
+  display: flex;
+  color: $typographyC-pColor;
+}
+
+.greenBG {
+  background-color: $mainC-main;
+  width: 450px;
+  height: 706px;
+}
+
+.bigImg {
+  position: absolute;
+  width: 601px;
+  height: 741px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  left: 20px;
+  top: 30px;
+}
+
+.smallImg {
+  position: absolute;
+  width: 456px;
+  height: 306px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  border: 15px solid white;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
